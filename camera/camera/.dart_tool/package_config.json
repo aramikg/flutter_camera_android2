@@ -56,8 +56,8 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "camera_avfoundation",
-      "rootUri": "file:///Users/aramik/.pub-cache/hosted/pub.dev/camera_avfoundation-0.9.13+6",
+      "name": "camera_avfoundation2",
+      "rootUri": "file:///Users/aramik/.pub-cache/hosted/pub.dev/camera_avfoundation2-0.9.13+62",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -368,7 +368,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-03T15:33:05.271645Z",
+  "generated": "2023-11-03T15:41:40.092665Z",
   "generator": "pub",
   "generatorVersion": "3.1.4"
 }
