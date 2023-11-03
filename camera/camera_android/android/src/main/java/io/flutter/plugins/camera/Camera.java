@@ -580,6 +580,7 @@ class Camera
     } else {
       runPrecaptureSequence();
     }
+   
   }
 
   /**

@@ -130,10 +130,14 @@
           lensFacing = @"external";
           break;
       }
+        AVCaptureDeviceFormat *activeFormat = [device activeFormat];
+           float fieldOfView = [activeFormat videoFieldOfView];
+           
       [reply addObject:@{
         @"name" : [device uniqueID],
         @"lensFacing" : lensFacing,
         @"sensorOrientation" : @90,
+        @"fieldOfView": fieldOfView,
       }];
     }
     [result sendSuccessWithData:reply];
