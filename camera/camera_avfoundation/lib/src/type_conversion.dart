@@ -4,7 +4,7 @@
 
 import 'dart:typed_data';
 
-import 'package:camera_platform_interface/camera_platform_interface.dart';
+import 'package:camera_platform_interface2/camera_platform_interface.dart';
 
 /// Converts method channel call [data] for `receivedImageStreamData` to a
 /// [CameraImageData].
@@ -16,10 +16,9 @@ CameraImageData cameraImageFromPlatformData(Map<dynamic, dynamic> data) {
       lensAperture: data['lensAperture'] as double?,
       sensorExposureTime: data['sensorExposureTime'] as int?,
       sensorSensitivity: data['sensorSensitivity'] as double?,
-      planes: List<CameraImagePlane>.unmodifiable(
-          (data['planes'] as List<dynamic>).map<CameraImagePlane>(
-              (dynamic planeData) => _cameraImagePlaneFromPlatformData(
-                  planeData as Map<dynamic, dynamic>))));
+      planes: List<CameraImagePlane>.unmodifiable((data['planes'] as List<dynamic>)
+          .map<CameraImagePlane>((dynamic planeData) =>
+              _cameraImagePlaneFromPlatformData(planeData as Map<dynamic, dynamic>))));
 }
 
 CameraImageFormat _cameraImageFormatFromPlatformData(dynamic data) {

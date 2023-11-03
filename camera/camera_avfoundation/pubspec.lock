@@ -17,14 +17,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
-  camera_platform_interface:
+  camera_platform_interface2:
     dependency: "direct main"
     description:
-      name: camera_platform_interface
-      sha256: "86fd4fc597c6e455265ddb5884feb352d0171ad14b9cdf3aba30da59b25738c4"
+      name: camera_platform_interface2
+      sha256: "79cfd6cddee23e1ca3a35f1faa37374705cbac02a7298957d2bfc1e2f6b57962"
       url: "https://pub.dev"
     source: hosted
-    version: "2.6.0"
+    version: "2.6.0+1"
   characters:
     dependency: transitive
     description:
