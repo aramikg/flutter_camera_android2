@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'camera_avfoundation2'
+  s.name             = 'camera_avfoundation'
   s.version          = '0.0.1'
   s.summary          = 'Flutter Camera'
   s.description      = <<-DESC
