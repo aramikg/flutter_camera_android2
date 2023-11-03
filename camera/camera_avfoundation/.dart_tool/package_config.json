@@ -158,13 +158,13 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "camera_avfoundation",
+      "name": "camera_avfoundation2",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-10-26T05:32:21.421771Z",
+  "generated": "2023-11-03T15:39:30.743648Z",
   "generator": "pub",
   "generatorVersion": "3.1.4"
 }
