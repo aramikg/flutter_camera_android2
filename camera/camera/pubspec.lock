@@ -77,10 +77,10 @@ packages:
     dependency: "direct main"
     description:
       name: camera_avfoundation2
-      sha256: "9874ddc748a09e447df1351ce5b139afa0a3c26498013f2f919ced60ea3d880a"
+      sha256: "05d83522eb5002c318dc0f35a505247c699a1b0ac32849275cd24f275efe2de4"
       url: "https://pub.dev"
     source: hosted
-    version: "0.9.13+65"
+    version: "0.9.13+66"
   camera_platform_interface:
     dependency: transitive
     description:
