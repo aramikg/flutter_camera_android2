@@ -16,13 +16,13 @@ flutter:
       android:
         default_package: camera_android
       ios:
-        default_package: camera_avfoundation2
+        default_package: camera_avf
       web:
         default_package: camera_web
 
 dependencies:
   camera_android: ^0.10.7
-  camera_avfoundation2: ^0.9.13+66
+  camera_avf: ^0.0.1
   camera_platform_interface2: ^2.6.0+1
   camera_web: ^0.3.1
   flutter:
