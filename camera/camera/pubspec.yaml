@@ -4,7 +4,7 @@ description: Dup of camera package with Landscape support. A Flutter plugin for 
   Dart.
 repository: https://github.com/aramikg/flutter-camera
 issue_tracker: https://github.com/aramikg/flutter-camera/issues
-version: 0.10.5+65
+version: 0.10.5+66
 
 environment:
   sdk: ">=2.19.0 <4.0.0"
