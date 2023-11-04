@@ -26,7 +26,7 @@ class CameraDescription {
     required this.sensorOrientation,
     this.fieldOfView = 0,
   });
-  final int fieldOfView;
+  final double fieldOfView;
 
   /// The name of the camera device.
   final String name;
