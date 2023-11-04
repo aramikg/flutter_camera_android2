@@ -57,7 +57,7 @@
     },
     {
       "name": "camera_avf",
-      "rootUri": "file:///Users/aramik/.pub-cache/hosted/pub.dev/camera_avf-0.0.5",
+      "rootUri": "file:///Users/aramik/.pub-cache/hosted/pub.dev/camera_avf-0.0.9",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -374,7 +374,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-04T03:10:02.112682Z",
+  "generated": "2023-11-04T05:47:58.726913Z",
   "generator": "pub",
   "generatorVersion": "3.1.4"
 }
