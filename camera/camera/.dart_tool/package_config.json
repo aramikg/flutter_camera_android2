@@ -50,8 +50,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "camera_android",
-      "rootUri": "file:///Users/aramik/.pub-cache/hosted/pub.dev/camera_android-0.10.8+13",
+      "name": "camera_android2",
+      "rootUri": "file:///Users/aramik/.pub-cache/hosted/pub.dev/camera_android2-0.10.8+15",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -374,7 +374,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-04T16:57:09.456235Z",
+  "generated": "2023-11-04T17:50:47.112376Z",
   "generator": "pub",
   "generatorVersion": "3.1.4"
 }
