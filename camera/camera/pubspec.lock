@@ -93,10 +93,10 @@ packages:
     dependency: "direct main"
     description:
       name: camera_platform_interface2
-      sha256: "79cfd6cddee23e1ca3a35f1faa37374705cbac02a7298957d2bfc1e2f6b57962"
+      sha256: "36fae1d698e362ef336bae1b838b32b0d3bbd13fe0758d98e35ce7ab96b37ca0"
       url: "https://pub.dev"
     source: hosted
-    version: "2.6.0+1"
+    version: "2.6.0+2"
   camera_web:
     dependency: "direct main"
     description:

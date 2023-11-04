@@ -69,7 +69,7 @@
     },
     {
       "name": "camera_platform_interface2",
-      "rootUri": "file:///Users/aramik/.pub-cache/hosted/pub.dev/camera_platform_interface2-2.6.0+1",
+      "rootUri": "file:///Users/aramik/.pub-cache/hosted/pub.dev/camera_platform_interface2-2.6.0+2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -374,7 +374,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-04T05:47:58.726913Z",
+  "generated": "2023-11-04T06:08:42.078174Z",
   "generator": "pub",
   "generatorVersion": "3.1.4"
 }
