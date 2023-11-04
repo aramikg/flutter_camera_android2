@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import android.util.SizeF;
 
 /** Provides various utilities for camera. */
 public final class CameraUtils {
@@ -114,7 +115,7 @@ public final class CameraUtils {
       details.put("name", cameraName);
       int sensorOrientation = characteristics.get(CameraCharacteristics.SENSOR_ORIENTATION);
       details.put("sensorOrientation", sensorOrientation);
-
+      
       int lensFacing = characteristics.get(CameraCharacteristics.LENS_FACING);
       switch (lensFacing) {
         case CameraMetadata.LENS_FACING_FRONT:
@@ -127,6 +128,18 @@ public final class CameraUtils {
           details.put("lensFacing", "external");
           break;
       }
+
+     
+float[] focalLengths = characteristics.get(CameraCharacteristics.LENS_INFO_AVAILABLE_FOCAL_LENGTHS);
+float focalLength = focalLengths[0];  // Assuming using the first focal length, you might want to choose appropriately
+SizeF sensorSize = characteristics.get(CameraCharacteristics.SENSOR_INFO_PHYSICAL_SIZE);
+
+float horizontalFOV = (float) (2 * Math.atan(sensorSize.getWidth() / (2 * focalLength)));
+
+// Convert radians to degrees
+horizontalFOV = (float) Math.toDegrees(horizontalFOV);
+ details.put("fieldOfView", horizontalFOV);
+
       cameras.add(details);
     }
     return cameras;
